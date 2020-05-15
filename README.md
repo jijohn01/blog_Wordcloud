@@ -2,8 +2,14 @@
 ##블로그를 크롤링하여 워드클라우드를 만드는 Text mining
 ### requirement
 chromedriver(최신버전)
+
+
 selenium
+
+
 nltk
+
+
 ### description
 코드는 두개의 단계로 구성되어있습니다. 1. 데이터 수집, 2. 워드클라우드 생성
 ####1. 데이터수집
