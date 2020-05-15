@@ -1,12 +1,10 @@
 from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+
 from selenium.webdriver.common.by import By
 import functions
 import time
 import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
+
 keyword = "포항 오도리"
 del_text = "[:!@#$%^&*()_+\}{?><'=/.,`~0-9a-zA-Z\n]"
 
@@ -67,7 +65,7 @@ if steps[1]:
     import matplotlib.pyplot as plt
     from ckonlpy.tag import Twitter
     from wordcloud import WordCloud
-    from wordcloud import ImageColorGenerator
+
     from matplotlib import font_manager, rc
     from PIL import Image
     import numpy as np

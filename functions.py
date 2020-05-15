@@ -1,10 +1,5 @@
-import pyperclip
 from selenium import webdriver
-import pyautogui
 import re
-import csv
-import nltk
-from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
 class function:
