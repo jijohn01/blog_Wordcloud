@@ -3,13 +3,17 @@
 ### requirement
 chromedriver(최신버전)
 
-
 selenium
-
 
 nltk
 
+wordcloud
 
+konlpy
+
+matplot
+
+numpy
 ### description
 코드는 두개의 단계로 구성되어있습니다. 1. 데이터 수집, 2. 워드클라우드 생성
 ####1. 데이터수집
